@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.home {
+  height: 100vh;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 45px;
+  align-items: center;
+  border-bottom: 2px solid #d15252;
+  background: #f0c8c8;
+  position: fixed;
+  z-index: 4;
+  width: 100vw;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+nav ul li {
+  padding: 10px;
+  padding-left: 40px;
+  font-size: 20px;
+  margin-left: 6px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #886161;
+  transition: .5s;
+  scroll-behavior: smooth;
+}
+
+nav ul li a:hover {
+  padding: 5px;
+  background-color: #dfa7a0;
+  border-radius: 10px;
+  color: #eee1e1;
+}
+
+
+nav h2 {
+  color: #886161;
+  font-size: 2em;
+  transition: 0.3s;
+}
+
+nav h2:hover {
+  transform: scale(1.3);
+}
+
+nav span:hover {
+  text-transform: lowercase;
+  transition: 0.3s;
+  color: #b78383;
+}
+
+/* style for home */
+
+.home {
+  background-color: #f0c8c8;
+  width: 100%;
+  height: 100vh;
+  border-bottom: 1px solid black;
+}
+
+.atas {
+  position: absolute;
+  width: 539px;
+  height: 194px;
+  left: 75px;
+  top: 130px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 119px;
+  color: #b78383;
+  line-height: 194px;
+}
+
+.tengah {
+  position: absolute;
+  left: 75px;
+  top: 284px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 119px;
+  color: #b78383;
+  line-height: 194px;
+  z-index: 1;
+}
+
+.tengah span {
+  font-weight: bold;
+  z-index: 1;
+}
+
+.bawah {
+  position: absolute;
+  left: 75px;
+  top: 468px;
+  font-family: 'Poppins', sans-serif;
+  color: #b78383;
+  font-style: normal;
+  font-size: 119px;
+  line-height: 194px;
+  font-weight: bold;
+}
+
+.img {
+  position: absolute;
+  z-index: 3;
+  bottom: -6.5px;
+  left: 470px;
+}
+
+.img img {
+  height: 550px;
+}
+
+.home svg {
+  height: 650px;
+  position: absolute;
+  top: 100px;
+  left: 450px;
+  z-index: 2;
+  transform: rotateX(180deg);
+}
+
+/* style for certi page */
+
+/* .about {
+  background-color: #f0c8c8;
+  height: 90vh;
+  width: 100%;
+}
+
+.imgabout {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.imgaa {
+    width: 250px;
+    border-radius: 100%;
+    margin: auto;
+} */
+
+.certificate {
+  height: 100vh;
+  background-color: #f0c8c8;
+  border-bottom: 1px solid black;
+  margin: auto;
+}
+
+.certificate h2 {
+  text-align: center;
+  padding-top: 90px;
+  font-size: 2em;
+  color: #b78383;
+}
+.title hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  color: #b78383;
+  width: 3%;
+  margin-top: 10px !important;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-row {
+  width: 403px;
+  margin-top: 70px;
+  border: 2px solid rgb(184, 126, 135);
+  transition: .5s;
+  border-radius: 10px;
+}
+
+.card-row img {
+  border-radius: 10px;
+  width: 400px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card-row p {
+  padding: 5px;
+  text-align: center;
+}
+
+.card-row:hover {
+  transform: scale(1.1);
+  transition: .4s;
+}
+
+
+/* style for contact */
+
+.contact {
+  height: 90vh;
+  width: 100%;
+  background-color: #f0c8c8;
+  color: #886161;
+  text-align: center;
+}
+
+.contact h2 {
+  padding-top: 30px;
+}
+
+.content-contact {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+}
+
+.form {
+  width: 400px;
+  height: 400px;
+  background-color: #b78383;
+  border-radius: 10px;
+  color: white;
+}
+
+
+input, textarea {
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #f0c8c8;
+  width: 80%;
+  margin-top: 20px !important;
+  margin: auto;
+  border: 1px solid #745353;
+}
+
+.btn {
+  margin-top: 15px !important;
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  border: 1px solid #745353;
+  margin: auto;
+  background-color: #f0c8c8;
+  color: #886161;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.btn:hover {
+  background-color: #886161;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  transform: scale(1.2);
+  transition: .4s;
+}
+
+.form h4 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.form p {
+  margin-bottom: 10px;
+}
+
+form {
+  margin: 10px;
+}
+
+/* style for sosmed */
+
+.sosmed {
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.sosmed h3 {
+  margin-top: 10px;
+}
+
+.sosmed hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  color: #b78383;
+  width: 10%;
+  margin-top: 15px !important;
+  margin: auto;
+}
+
+.title-sosmed {
+  font-size: 2em;
+}
+
+.content-sosmed {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.content-sosmed h3 {
+  margin-top: 30px;
+}
+
+.content-sosmed p {
+  margin-top: 10px;
+}
+
+.content-sosmed a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #b78383;
+  font-size: 18px;
+  padding: 7px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: #b78383;
+  outline: none;
+}
+
+.box:focus {
+  outline: none;
+}

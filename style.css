@@ -47,7 +47,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #886161;
-  transition: .5s;
+  transition: 0.5s;
   scroll-behavior: smooth;
 }
 
@@ -57,7 +57,6 @@ nav ul li a:hover {
   border-radius: 10px;
   color: #eee1e1;
 }
-
 
 nav h2 {
   color: #886161;
@@ -148,7 +147,6 @@ nav span:hover {
   transform: rotateX(180deg);
 }
 
-
 /* style for certi page */
 
 /* .about {
@@ -200,7 +198,7 @@ nav span:hover {
   width: 403px;
   margin-top: 70px;
   border: 2px solid rgb(184, 126, 135);
-  transition: .5s;
+  transition: 0.5s;
   border-radius: 10px;
 }
 
@@ -219,10 +217,9 @@ nav span:hover {
 
 .card-row:hover {
   transform: scale(1.1);
-  transition: .4s;
-  box-shadow: -3px 6px 13px 2px #ca9898;
+  transition: 0.4s;
+  box-shadow: -3px 6px 13px 2px #b77777;
 }
-
 
 /* style for contact */
 
@@ -252,8 +249,8 @@ nav span:hover {
   color: white;
 }
 
-
-input, textarea {
+input,
+textarea {
   padding: 12px;
   border-radius: 10px;
   background-color: #f0c8c8;
@@ -274,7 +271,7 @@ input, textarea {
   background-color: #f0c8c8;
   color: #886161;
   cursor: pointer;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .btn:hover {
@@ -283,7 +280,7 @@ input, textarea {
   border: 1px solid white;
   outline: none;
   transform: scale(1.2);
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .form h4 {

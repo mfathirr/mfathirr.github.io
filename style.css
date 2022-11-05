@@ -148,6 +148,7 @@ nav span:hover {
   transform: rotateX(180deg);
 }
 
+
 /* style for certi page */
 
 /* .about {
@@ -213,11 +214,13 @@ nav span:hover {
 .card-row p {
   padding: 5px;
   text-align: center;
+  font-size: 15px;
 }
 
 .card-row:hover {
   transform: scale(1.1);
   transition: .4s;
+  box-shadow: -3px 6px 13px 2px #ca9898;
 }
 
 
